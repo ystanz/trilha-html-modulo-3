@@ -1,16 +1,50 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.logo {
+    background-color: black;
+}
+
+.logo img {
+    width: 100px;
+    margin-left: 50px;
+    padding: 10px 0;
+}
+
 body, html {
     margin: 0;
     padding: 0;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
-ul { list-style: none; padding-left: 5px; }
-a { color:blue; text-decoration: none;}
-.bar {
+ul { 
+    list-style: none; 
+    padding-left: 5px; 
+}
+
+a { 
+    color:blue; 
+    text-decoration: none;
+}
+
+.head_bar {
     background-color: #f9f9fb;
     padding:15px;
     border-top: solid 1px #cdcdcd;
     border-bottom: solid 1px #cdcdcd;
+    background-color: #260101;
 }
+
+.footer_bar {
+    background-color: #f9f9fb;
+    padding:15px;
+    border-top: solid 1px #cdcdcd;
+    border-bottom: solid 1px #cdcdcd;
+    background-color: #260101;
+    margin-top: 50px;
+}
+
 .content {
     max-width: 1440px;
     margin: auto;
@@ -22,17 +56,139 @@ a { color:blue; text-decoration: none;}
     padding-left: 1rem;
     padding-right: 1rem;
 }
-.footer {
-    min-height: 100px;
-    border-top: solid 1px #cdcdcd;
+
+main {
+    padding-top: 15px;
 }
+
+main article {
+    margin: 50px 0;
+}
+main section {
+    margin-top: 40px;
+}
+
+main section p, article p {
+    margin-top: 7px;
+}
+main h1, h2 {
+    margin-bottom: 5px ;
+}
+
+footer {
+    min-height: 100px;
+    background-color: #070A0D;
+    padding-top: 15px;
+}
+.final_table {
+    padding: 75px 0 25px 0;
+}
+
+#table_footer {
+    max-width: 800px;
+    border-width: 1px;
+    border-style: groove;
+}
+
+#table_footer thead {
+    background-color: gainsboro;
+}
+
+#table_footer tbody th {
+    font-size: 14px;
+    text-align: right;
+    padding-right: 5px;
+    vertical-align: top;
+    background-color: rgba(220, 220, 220, 0.5);
+}
+
+#table_footer tbody td {
+    font-size: 14px;
+    text-align: left;
+    padding-left: 10px;
+}
+
 .anchors {
     border-left: solid 1px #cdcdcd;
     padding-left: 15px;
+    padding-top: 15px;
+}
+
+.table-nav {
+    padding-top: 50px;
+}
+
+#poster thead th {
+    font-size: 16px;
+    background-color: gainsboro;
+}
+
+#poster tbody th {
+    font-size: 16px;
+    background-color: gainsboro;
+}
+#poster img {
+    padding-top: 4px;
+}
+#more-info {
+    padding-top: 10px;
+    height: 300px;
+}
+#more-info thead{
+    background-color: gainsboro;
+}
+
+#more-info th{
+    font-size: 14px;
+    padding: 5px 15px 5px 0;
+    vertical-align: top;
+}
+
+#more-info td{
+    font-size: 12px;
+    padding: 5px 0 5px 15px;
+}
+
+#more-info tfoot td {
+    background-color: gainsboro;
+    font-size: 1px
 }
 .sidebar {
     border-right: solid 1px #cdcdcd;
+    padding-top: 15px;
 }
-figure {
+
+main figure {
+    max-width: 350px;
+    padding-top: 15px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto
+}
+
+main figure img {
+    width: 100%;
+    
+}
+
+figcaption {
+    font-size: 12px;
     text-align: center;
+}
+
+h1, h2, li, th {
+    font-family: 'Instrument Serif', serif;
+}
+
+p, td {  
+    font-family: 'Open Sans', sans-serif;
+}
+
+h1 {
+    font-size: 28px;
+}
+
+ul li{
+    font-size: 18px;
+    padding: 5px 0;
 }
