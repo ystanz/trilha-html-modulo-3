@@ -171,6 +171,12 @@ main figure img {
     
 }
 
+.sequencia_conjuring {
+    width: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto
+}
 figcaption {
     font-size: 12px;
     text-align: center;
