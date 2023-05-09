@@ -171,7 +171,7 @@ main figure img {
     
 }
 
-.sequencia_conjuring {
+.sequencia_img {
     width: 50%;
     display: block;
     margin-left: auto;
@@ -194,7 +194,7 @@ h1 {
     font-size: 28px;
 }
 
-ul li{
+ul li {
     font-size: 18px;
     padding: 5px 0;
 }
